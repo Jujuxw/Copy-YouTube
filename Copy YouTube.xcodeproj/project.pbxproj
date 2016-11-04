@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D048051DB2274B009160AF /* YouTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D048041DB2274B009160AF /* YouTBView.swift */; };
+		A5D048071DB24E0F009160AF /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D048061DB24E0F009160AF /* MenuBar.swift */; };
+		A5E615C91DB331EF001D253F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E615C81DB331EF001D253F /* Video.swift */; };
 		A5EB64CB1DAF2E2600D3DC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64CA1DAF2E2600D3DC07 /* AppDelegate.swift */; };
-		A5EB64CD1DAF2E2600D3DC07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64CC1DAF2E2600D3DC07 /* ViewController.swift */; };
+		A5EB64CD1DAF2E2600D3DC07 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64CC1DAF2E2600D3DC07 /* HomeController.swift */; };
 		A5EB64D01DAF2E2600D3DC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB64CE1DAF2E2600D3DC07 /* Main.storyboard */; };
 		A5EB64D21DAF2E2600D3DC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EB64D11DAF2E2600D3DC07 /* Assets.xcassets */; };
 		A5EB64D51DAF2E2600D3DC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB64D31DAF2E2600D3DC07 /* LaunchScreen.storyboard */; };
 		A5EB64E01DAF2E2700D3DC07 /* Copy_YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64DF1DAF2E2700D3DC07 /* Copy_YouTubeTests.swift */; };
 		A5EB64EB1DAF2E2700D3DC07 /* Copy_YouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64EA1DAF2E2700D3DC07 /* Copy_YouTubeUITests.swift */; };
+		A5EB64FD1DB1FE1E00D3DC07 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB64FC1DB1FE1E00D3DC07 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5D048041DB2274B009160AF /* YouTBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTBView.swift; sourceTree = "<group>"; };
+		A5D048061DB24E0F009160AF /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		A5E615C81DB331EF001D253F /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		A5EB64C71DAF2E2600D3DC07 /* Copy YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB64CA1DAF2E2600D3DC07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5EB64CC1DAF2E2600D3DC07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5EB64CC1DAF2E2600D3DC07 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		A5EB64CF1DAF2E2600D3DC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5EB64D11DAF2E2600D3DC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5EB64D41DAF2E2600D3DC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		A5EB64E61DAF2E2700D3DC07 /* Copy YouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Copy YouTubeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB64EA1DAF2E2700D3DC07 /* Copy_YouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy_YouTubeUITests.swift; sourceTree = "<group>"; };
 		A5EB64EC1DAF2E2700D3DC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EB64FC1DB1FE1E00D3DC07 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5D048021DB22727009160AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5D048041DB2274B009160AF /* YouTBView.swift */,
+				A5D048061DB24E0F009160AF /* MenuBar.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A5D048031DB22733009160AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB64CC1DAF2E2600D3DC07 /* HomeController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A5E615C71DB331E4001D253F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5E615C81DB331EF001D253F /* Video.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A5EB64BE1DAF2E2500D3DC07 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +130,11 @@
 		A5EB64C91DAF2E2600D3DC07 /* Copy YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				A5E615C71DB331E4001D253F /* Model */,
+				A5D048021DB22727009160AF /* Views */,
+				A5D048031DB22733009160AF /* Controllers */,
+				A5EB64FE1DB1FE2500D3DC07 /* Extension */,
 				A5EB64CA1DAF2E2600D3DC07 /* AppDelegate.swift */,
-				A5EB64CC1DAF2E2600D3DC07 /* ViewController.swift */,
 				A5EB64CE1DAF2E2600D3DC07 /* Main.storyboard */,
 				A5EB64D11DAF2E2600D3DC07 /* Assets.xcassets */,
 				A5EB64D31DAF2E2600D3DC07 /* LaunchScreen.storyboard */,
@@ -123,6 +159,14 @@
 				A5EB64EC1DAF2E2700D3DC07 /* Info.plist */,
 			);
 			path = "Copy YouTubeUITests";
+			sourceTree = "<group>";
+		};
+		A5EB64FE1DB1FE2500D3DC07 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB64FC1DB1FE1E00D3DC07 /* Extension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +237,7 @@
 				TargetAttributes = {
 					A5EB64C61DAF2E2600D3DC07 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q27ZRZ24S6;
 						ProvisioningStyle = Automatic;
 					};
 					A5EB64DA1DAF2E2700D3DC07 = {
@@ -259,8 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EB64CD1DAF2E2600D3DC07 /* ViewController.swift in Sources */,
+				A5D048051DB2274B009160AF /* YouTBView.swift in Sources */,
+				A5E615C91DB331EF001D253F /* Video.swift in Sources */,
+				A5EB64FD1DB1FE1E00D3DC07 /* Extension.swift in Sources */,
+				A5EB64CD1DAF2E2600D3DC07 /* HomeController.swift in Sources */,
 				A5EB64CB1DAF2E2600D3DC07 /* AppDelegate.swift in Sources */,
+				A5D048071DB24E0F009160AF /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q27ZRZ24S6;
 				INFOPLIST_FILE = "Copy YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "juju.Copy-YouTube";
@@ -424,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q27ZRZ24S6;
 				INFOPLIST_FILE = "Copy YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "juju.Copy-YouTube";
@@ -505,6 +556,7 @@
 				A5EB64F11DAF2E2700D3DC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5EB64F21DAF2E2700D3DC07 /* Build configuration list for PBXNativeTarget "Copy YouTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +565,7 @@
 				A5EB64F41DAF2E2700D3DC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5EB64F51DAF2E2700D3DC07 /* Build configuration list for PBXNativeTarget "Copy YouTubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +574,7 @@
 				A5EB64F71DAF2E2700D3DC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
